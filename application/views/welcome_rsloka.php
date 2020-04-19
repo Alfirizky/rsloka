@@ -9,6 +9,8 @@
     <center>
         <h3>Welcom To RS Loka</h3>
     </center>
+
+    <a href="<?php echo base_url()?>rsloka/form_registrasi">Registrasi</a>
     
 </body>
 </html></html>
