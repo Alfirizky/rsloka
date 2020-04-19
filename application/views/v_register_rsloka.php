@@ -11,7 +11,8 @@
 	
 	<div class="container" style="margin-top: 60px;">
 		<h3 class="text-center" style="margin-bottom: 30px;">Halaman Registrasi</h3>
-		<form action="<?php echo base_url()?>rsloka/registrasi" method="post">
+		<!-- <form action="<?php echo base_url()?>rsloka/registrasi" method="post">  -->
+		<form action="" method="post">
 			<div class="form-group row">
 				<div class="col-md-3"></div>
 				<div class="col-md-2" style="margin-left:30px;">
@@ -64,7 +65,8 @@
 				</div>
 			</div>
 			<center>
-				<button class="btn btn-success" type="submit" style="margin-right: 30px;">Daftar</button>
+				<button class="btn btn-success" type="submit" name="registrasi" style="margin-right: 30px;">Daftar</button>
+
 				<a class="btn btn-primary text-light" data-toggle="modal" data-target="#Login" style="margin-left: 30px;">Login</a>
 			</center>
 		</form>
