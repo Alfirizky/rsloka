@@ -4,7 +4,7 @@
 
 include('database_connection.php');
 
-$query = "SELECT * FROM tbl_product ORDER BY id DESC";
+$query = "SELECT * FROM lokamart ORDER BY id DESC";
 
 $statement = $connect->prepare($query);
 
