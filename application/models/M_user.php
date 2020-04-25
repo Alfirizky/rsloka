@@ -1,5 +1,5 @@
 <?php
-    
+
     defined('BASEPATH') OR exit('No direct script access allowed');
 
     class M_user extends CI_Model {
@@ -16,9 +16,9 @@
 				'password' => $this->input->post('password',true),
 				'jenis_kelamin' => $this->input->post('jenis_kelamin')
             ];
-            
+
             $this->db->insert('user', $user);
-            
+
         }
     }
 ?>
